@@ -2,6 +2,16 @@ run = True
 
 
 while run == True:
-    Possition = input("Quelle possition voulez vous ? ")
+    Possition = int(input("Quelle possition voulez vous ? "))
+    match Possition:
+        case 1:
+            print("pose 1")
+        
+        case 2: 
+            print("pose 2 ")
+        
+        case 3: 
+            run = False
+
     
-    
+
